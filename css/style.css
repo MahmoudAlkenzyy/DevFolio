@@ -282,3 +282,21 @@ ul {
         content: '';
     }
 }
+/*About Section*/
+
+ul span {
+    font-weight: 500;
+}
+ul li {
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    color: black;
+}
+.skills {
+    line-height: 45px;
+}
+.p {
+    height: 12px;
+}
