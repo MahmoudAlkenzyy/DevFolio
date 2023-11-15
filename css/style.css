@@ -6,6 +6,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --secondry-color: #0078ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1e1e1e;
+}
 ul {
     list-style: none;
 }
@@ -299,4 +310,17 @@ ul li {
 }
 .p {
     height: 12px;
+}
+#about h5 {
+    position: relative;
+    font-size: 2rem;
+}
+#about h5::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: var(--secondry-color);
+    width: 100px;
+    bottom: -12px;
+    left: 0;
 }
