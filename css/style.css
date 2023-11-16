@@ -10,7 +10,9 @@
     --secondry-color: #0078ff;
     --white-color: #ffff;
 }
-
+body {
+    height: 1000vh;
+}
 h1,
 h2,
 h3,
@@ -351,12 +353,15 @@ ul li {
     }
 }
 /*Services*/
-#services h3 {
+h3 {
     font-size: 3rem;
     font-weight: bold;
 }
 
-#services .heading-p::after {
+.heading-p {
+    position: relative;
+}
+.heading-p::after {
     content: '';
     position: absolute;
     width: 50px;
@@ -411,4 +416,12 @@ ul li {
 }
 #counter i::before {
     position: absolute;
+}
+/*Portfolio Section*/
+#portfolio .card-body p {
+    font-size: 0.8rem;
+    color: var();
+}
+.card-body .icon {
+    font-size: 40px;
 }
