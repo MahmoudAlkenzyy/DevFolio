@@ -10,6 +10,7 @@
     --secondry-color: #0078ff;
     --white-color: #ffff;
 }
+
 h1,
 h2,
 h3,
@@ -376,7 +377,7 @@ ul li {
     justify-content: center;
     align-items: center;
     justify-self: center;
-    transition: 0.4s;
+    transition: 0.5s ease;
 }
 .services-card i::before {
     position: absolute;
@@ -385,4 +386,29 @@ ul li {
     border: 10px solid #cde1f8;
     background-color: var(--secondry-color);
     color: var(--white-color);
+}
+/*counter*/
+#counter {
+    background: url(../images/post-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#counter i {
+    border: #cde1f8 solid 10px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    transition: 0.5s ease;
+    padding: 2rem;
+}
+#counter i::before {
+    position: absolute;
 }
