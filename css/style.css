@@ -419,16 +419,16 @@ h3 {
     font-size: 0.8rem;
     color: var();
 }
-.card-body .icon {
+#portfolio .card-body .icon {
     font-size: 40px;
 }
-.card img {
+#portfolio .card img {
     transition: 0.5s;
 }
-.card-header {
+#portfolio .card-header {
     overflow: hidden;
 }
-.card:hover img {
+#portfolio .card:hover img {
     transform: scale(1.2);
 }
 /*Section testimonials */
@@ -443,4 +443,18 @@ section#testimonials {
     height: 12px;
     border-radius: 50%;
     margin-top: 10px;
+}
+#blog .card a {
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: 0.4s color;
+}
+#blog .card a:hover {
+    color: var(--secondry-color);
+}
+#blog .card span.badge {
+    transform: translateY(-50%);
+}
+#blog .card .card-footer img {
+    width: 30px;
 }
