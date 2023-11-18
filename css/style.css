@@ -358,7 +358,7 @@ h3 {
 .heading-p {
     position: relative;
 }
-.heading-p::after {
+.heading-p::before {
     content: '';
     position: absolute;
     width: 50px;
@@ -507,4 +507,16 @@ section#testimonials {
     border: 3px solid #cde1f8;
     background-color: var(--secondry-color);
     color: var(--white-color);
+} /**/
+@media screen and (max-width: 1024px) {
+    #contact {
+        background-attachment: scroll;
+    }
+}
+footer {
+    background: #0062d3;
+}
+a.scroll-btn {
+    right: 10px;
+    bottom: 10px;
 }
