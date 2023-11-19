@@ -66,8 +66,7 @@ ul {
 }
 .dropdown.drop-2:hover .dropdown-menu[aria-labelledby='dropdownMenuButton1'] {
     display: block;
-    position: absolute;
-    right: 100%;
+    transform: translate(-100%, -20%);
 }
 
 /*Home Section*/
