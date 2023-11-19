@@ -24,7 +24,7 @@ ul {
 
 /*Nav bar Section*/
 .nav {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .nav .active {
     position: relative;
@@ -33,6 +33,9 @@ ul {
     content: '';
     width: 0;
     transition: 0.4s width;
+}
+.navbar-nav li {
+    margin: 0;
 }
 .navbar-nav li a {
     position: relative;
